@@ -1,0 +1,1 @@
+# Test Loopback app template

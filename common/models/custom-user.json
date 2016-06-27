@@ -1,0 +1,19 @@
+{
+  "name": "CustomUser",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "pets": {
+      "type": "hasMany",
+      "model": "Pet",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
