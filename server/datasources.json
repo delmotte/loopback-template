@@ -3,5 +3,11 @@
     "name": "db",
     "connector": "memory",
     "file": "./backup.json"
+  },
+  "container": {
+    "name": "container",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./uploads"
   }
 }

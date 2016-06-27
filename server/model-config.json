@@ -40,5 +40,9 @@
   "Pet": {
     "dataSource": "db",
     "public": true
+  },
+  "Container": {
+    "dataSource": "container",
+    "public": true
   }
 }
